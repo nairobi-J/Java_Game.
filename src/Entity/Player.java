@@ -116,7 +116,8 @@ public class Player extends Entity{
                 break;
 
         }
-        g2.drawImage(image,screenX, screenY,gp.tileSize, gp.tileSize, null );
+
+        g2.drawImage(image,screenX, screenY,100, 100, null );
 
 
 
